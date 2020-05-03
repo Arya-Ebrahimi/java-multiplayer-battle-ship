@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.control.Button?>
 <?import javafx.scene.control.MenuItem?>
 <?import javafx.scene.control.Separator?>
 <?import javafx.scene.control.SplitMenuButton?>
@@ -9,7 +10,7 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane maxWidth="-Infinity" prefHeight="709.0" prefWidth="901.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Java.StartGame">
+<AnchorPane maxWidth="-Infinity" prefHeight="709.0" prefWidth="901.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Java.GameClasses.StartGame">
    <children>
       <VBox layoutX="30.0" layoutY="175.0" prefHeight="500.0" prefWidth="500.0" AnchorPane.bottomAnchor="34.0" AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="371.0" AnchorPane.topAnchor="175.0">
          <children>
@@ -58,6 +59,7 @@
                 <MenuItem fx:id="commandcenter" mnemonicParsing="false" text="command center" />
               </items>
             </SplitMenuButton>
+            <Button fx:id="nextTurnButton" layoutX="447.0" layoutY="22.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="110.0" text="next turn" />
          </children>
       </AnchorPane>
       <Text fx:id="roundsLeft" layoutX="608.0" layoutY="207.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="180.7294921875" />

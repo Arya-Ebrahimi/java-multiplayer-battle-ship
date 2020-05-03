@@ -5,7 +5,7 @@
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="400.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Java.MainMenu">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="400.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Java.GameClasses.MainMenu">
 
    <Button fx:id="play" layoutX="146.0" layoutY="98.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="109.0" text="Play!" />
    <Label fx:id="label" layoutX="24.0" layoutY="27.0" prefHeight="38.0" prefWidth="80.0" textAlignment="CENTER" />

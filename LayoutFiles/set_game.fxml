@@ -7,7 +7,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane prefHeight="697.0" prefWidth="723.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Java.SetMap">
+<AnchorPane prefHeight="697.0" prefWidth="723.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Java.GameClasses.SetMap">
    <VBox alignment="TOP_CENTER" layoutX="29.0" layoutY="48.0" prefHeight="600.0" prefWidth="600.0" AnchorPane.bottomAnchor="52.0" AnchorPane.topAnchor="48.0">
       <Pane fx:id="root" prefHeight="600.0" prefWidth="600.0" />
    </VBox>

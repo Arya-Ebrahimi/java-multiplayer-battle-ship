@@ -1,9 +1,8 @@
 package Java.Units;
 
-import Java.SmallTiles;
+import Java.Tiles.SmallTiles;
 
 import java.io.Serializable;
-import java.util.ArrayList;
 import java.util.List;
 
 public class Castle implements Serializable
